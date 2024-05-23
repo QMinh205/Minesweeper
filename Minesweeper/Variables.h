@@ -48,6 +48,7 @@ extern LTexture menu2;
 extern LTexture menu3;
 extern LTexture menu4;
 extern LTexture menu5;
+extern LTexture selectDifficulty;
 extern LTexture menu5Color;
 extern LTexture background;
 extern LTexture menuColor;

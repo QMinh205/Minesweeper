@@ -38,6 +38,7 @@ extern LTexture menu2(NULL, 0, 0);
 extern LTexture menu3(NULL, 0, 0);
 extern LTexture menu4(NULL, 0, 0);
 extern LTexture menu5(NULL, 0, 0);
+extern LTexture selectDifficulty(NULL, 0, 0);
 extern LTexture menu5Color(NULL, 0, 0);
 extern LTexture background(NULL, 0, 0);
 extern LTexture menuColor(NULL, 0, 0);

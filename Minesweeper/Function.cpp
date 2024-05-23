@@ -518,6 +518,8 @@ void showModeChoice()
 					else customChoice.render(300, 300);
 				}
 			}
+			selectDifficulty.loadFromRenderedText("SELECT DIFFICULTY", {255, 255, 255});
+			selectDifficulty.render(250, 20);
 			SDL_RenderPresent(renderer);
 		}
 	}
@@ -572,14 +574,14 @@ void CustomMode()
 				inputChar = e.text.text[0];
 				if (inputChar >= '0' && inputChar <= '9')
 				{
-					if (widthInside && width.length() < 6)
+					if (widthInside && width.length() < 3)
 					{
 						width += e.text.text;
 						w *= 10;
 						w += (int)(inputChar - 48);
 						wInput.loadFromRenderedText(width.c_str(), black);
 					}
-					else if (heightInside && height.length() < 6)
+					else if (heightInside && height.length() < 3)
 					{
 						height += e.text.text;
 						h *= 10;
