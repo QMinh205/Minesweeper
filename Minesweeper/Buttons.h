@@ -1,5 +1,4 @@
 #pragma once
-#pragma once
 
 #ifndef BUTTONS_H
 #define BUTTONS_H

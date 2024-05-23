@@ -99,7 +99,7 @@ bool loadmedia()
 		}
 	}
 	//load digits
-	if (!Digits.loadFromFile("res/images/Untitled1.png"))
+	if (!Digits.loadFromFile("res/images/time.png"))
 	{
 		cout << "Fail";
 		success = false;

@@ -1,5 +1,5 @@
 #include "Variables.h"
-#include<iostream>
+#include <iostream>
 // loop variable
 extern bool isRunning = false;
 extern bool showmenu = false;
